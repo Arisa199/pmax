@@ -8,7 +8,7 @@
 // make a copy of this template sheet first & copy your URL into the ss variable on line 11. template: https://docs.google.com/spreadsheets/d/1aGOBOLNUjEIwwlYuS0D3fcIimRnzGdLSJxVd9rHOQ0E/copy
 
 function main() {
-  let ss = SpreadsheetApp.openByUrl(''); 
+  let ss = SpreadsheetApp.openByUrl('https://docs.google.com/spreadsheets/d/1Fc5tK8H2Dbz11JiCzgWGBbjd6IMN4nMdG_tae2-u_rY/edit?gid=281685727#gid=281685727'); 
   let zombieDays = 366   // how many days data do you want to use to identify zombie (0 click) products?
   let prodDays = 181     // how many days data do you want to use to identify 'long range' products?  
 
